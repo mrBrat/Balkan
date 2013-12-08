@@ -34,7 +34,7 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
 		if(data.message == "!pravila" && data.fromID == "51c643cd3e083e3100606c73"){
             API.chatLog("Pročitajte pravila koja se nalaze u Info i pridružite se našoj FB grupi.",true);
                 setTimeout(function() {
-               API.chatLog("bla bla bla <3 <3 <3.",true);
+               API.chatLog("FB grupa http://adf.ly/X2U62",true);
                 },100);
 		}
 		if(data.message == "!whoisrunning" && data.fromID == "51c643cd3e083e3100606c73"){
