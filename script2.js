@@ -28,16 +28,16 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
 		$('#chat-header').append('<div id="autowoot-button" class="chat-header-button" onMouseOver="show(\'tooltip_custom\')" onMouseOut="hide(\'tooltip_custom\')" onClick="woot()"><i class="icon icon-autowoot-off"></i></div>');
 	},
     onChat: function(data){
-		if(data.message == "!test" && data.fromID == "51c6fbb696fba562bc621943"){
+		if(data.message == "!test" && data.fromID == "51c643cd3e083e3100606c73"){
             API.chatLog("Skripta je uspješno pokrenuta! <idle>",true);
         }
-		if(data.message == "!pravila" && data.fromID == "51c6fbb696fba562bc621943"){
+		if(data.message == "!pravila" && data.fromID == "51c643cd3e083e3100606c73"){
             API.chatLog("Pročitajte pravila koja se nalaze u Info i pridružite se našoj FB grupi.",true);
                 setTimeout(function() {
-               API.chatLog("The minimum amount of characters is 5, this must include a space too. This is why we say at least 2 words are required.",delete);
+               API.chatLog("The minimum amount of characters is 5, this must include a space too. This is why we say at least 2 words are required.",true);
                 },100);
 		}
-		if(data.message == "!whoisrunning" && data.fromID == "51c6fbb696fba562bc621943"){
+		if(data.message == "!whoisrunning" && data.fromID == "51c643cd3e083e3100606c73"){
             API.sendChat("I'm Running BP Room Script!");
         }
 
