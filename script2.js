@@ -1,4 +1,4 @@
-API.chatLog("Running Balkan Party Room Enhancements!", true);
+API.chatLog("Running Balkan Party Room Enhancements! v0.001", true);
 function initEnvironment(){}
 initEnvironment();
 var plugCubed,
