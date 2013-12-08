@@ -29,18 +29,18 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
 	},
     onChat: function(data){
 		if(data.message == "!test" && data.fromID == "51c643cd3e083e3100606c73")
-                if(data.message == "!test" && data.fromID == "51c6fbb696fba562bc621943")
+                if(data.message == "!test" && data.fromID == "51c6fbb696fba562bc621943");
             API.chatLog("Skripta je uspješno pokrenuta! <idle>",true);
         }
 		if(data.message == "!pravila" && data.fromID == "51c643cd3e083e3100606c73")
-                if(data.message == "!pravila" && data.fromID == "51c6fbb696fba562bc621943")
+                if(data.message == "!pravila" && data.fromID == "51c6fbb696fba562bc621943");
             API.chatLog("Pročitajte pravila koja se nalaze u Info i pridružite se našoj FB grupi.",true);
                 setTimeout(function() {
                API.chatLog("FB grupa http://adf.ly/X2U62",true);
                 },100);
         }
 		if(data.message == "!op" && data.fromID == "51c643cd3e083e3100606c73")
-                if(data.message == "!op" && data.fromID == "51c6fbb696fba562bc621943")
+                if(data.message == "!op" && data.fromID == "51c6fbb696fba562bc621943");
             API.chatLog("Ova pjesma se pušta bar 20 puta dnevno, Sljedeći put pustite nešto originalnije. :/",true);
         }
 
