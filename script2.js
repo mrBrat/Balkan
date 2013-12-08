@@ -34,9 +34,9 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
 		if(data.message == "!pravila" && data.fromID == "51c6fbb696fba562bc621943"){
             API.chatLog("Pročitajte pravila koja se nalaze u Info i pridružite se našoj FB grupi.",true);
                 setTimeout(function() {
-               //API.chatLog("The minimum amount of characters is 5, this must include a space too. This is why we say at least 2 words are required.",true);
-               // },100);
-		//}
+               /API.chatLog("The minimum amount of characters is 5, this must include a space too. This is why we say at least 2 words are required.",true);
+                /},100);
+		/}
 		if(data.message == "!whoisrunning" && data.fromID == "51c6fbb696fba562bc621943"){
             API.sendChat("I'm Running Radiant Music's RoomScript!");
         }
