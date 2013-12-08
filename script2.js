@@ -37,8 +37,7 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
                API.chatLog("The minimum amount of characters is 5, this must include a space too. This is why we say at least 2 words are required.",true);
                 },100);
 		}
-		if(data.message == "!whoisrunning" && data.fromID == "51c643cd3e083e3100606c73"){
-                if(data.message == "!whoisrunning" && data.fromID == "51c6fbb696fba562bc621943"){
+		if(data.message == "!whoisrunning" && data.fromID == "51c643cd3e083e3100606c73" "51c6fbb696fba562bc621943"){
             API.sendChat("I'm Running BP Room Script!");
         }
 
