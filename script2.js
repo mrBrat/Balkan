@@ -41,7 +41,7 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
 		}
 		if(data.message == "!op" && data.fromID == "51c643cd3e083e3100606c73");
                 if(data.message == "!op" && data.fromID == "51c6fbb696fba562bc621943"){ 
-            API.sendChat("Ova pjesma se pušta bar 20 puta dnevno, Sljedeći put pustite nešto originalnije. :/",true);
+            API.chatLog("Ova pjesma se pušta bar 20 puta dnevno, Sljedeći put pustite nešto originalnije. :/",true);
         }
 
     },
