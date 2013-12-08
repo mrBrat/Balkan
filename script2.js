@@ -23,7 +23,7 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
         $('head').append('<link rel="stylesheet" type="text/css" href="https://raw.github.com/nihad08/Balkan/master/script1.js">');
 		$('body').append('<div id="tooltip_custom" class="right" style="top: 28px; right: 120px; visibility: hidden;"><span>AutoWoot Enable/Disable</span><div class="corner"></div></div>');
 		$('#room').find('canvas').filter(function() { return $(this).css('opacity') < 1; }).remove();
-		$('#room').append('<div class="is-leave" style="margin-top: 300px; text-align: center;"><a href="http:/bla.com" target="_blank"><img src="http://i.imgur.com/hePOODi.png"></a></div>');
+		$('#room').append('<div class="is-leave" style="margin-top: 300px; text-align: center;"><a href="http:/bla.com" target="_blank"><img src="http://imgur.com/pq5mQcC"></a></div>');
 		$('#dj-booth').append('<div id="rmbooth" style="background-image: url(http://radiantedm.com/rmscript/img/djbooth.jpg);"></div>');
 		$('#chat-header').append('<div id="autowoot-button" class="chat-header-button" onMouseOver="show(\'tooltip_custom\')" onMouseOut="hide(\'tooltip_custom\')" onClick="woot()"><i class="icon icon-autowoot-off"></i></div>');
 	},
