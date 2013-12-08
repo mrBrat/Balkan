@@ -38,7 +38,7 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
                 },100);
 		}
 		if(data.message == "!whoisrunning" && data.fromID == "51c6fbb696fba562bc621943"){
-            API.sendChat("I'm Running Radiant Music's RoomScript!");
+            API.sendChat("I'm Running BP Room Script!");
         }
 
     },
