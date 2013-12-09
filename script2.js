@@ -20,7 +20,7 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
     },
     initCSS: function() {
 		$(".background").find('img').attr('src','http://i.imgur.com/gYDeX8Z.png');
-        $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/82153790/rmplug.css">');
+        $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/s/xrc8z5doey7y4zc/style.css">');
 		$('body').append('<div id="tooltip_custom" class="right" style="top: 28px; right: 120px; visibility: hidden;"><span>AutoWoot Enable/Disable</span><div class="corner"></div></div>');
 		$('#room').find('canvas').filter(function() { return $(this).css('opacity') < 1; }).remove();
 		$('#room').append('<div class="is-leave" style="margin-top: 300px; text-align: center;"><a href="https://www.facebook.com/groups/547885508611462/" target="_blank"><img src="http://i.imgur.com/pq5mQcC.png"></a></div>');
