@@ -40,6 +40,9 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
                 if(data.message == "!op" && data.fromID == "51c6fbb696fba562bc621943"){
             API.chatLog("Ova pjesma se pušta bar 20 puta dnevno, Sljedeći put pustite nešto originalnije. :/",true);
         }
+                if(data.message == "!rf" && data.fromID == "51c6fbb696fba562bc621943"){
+            API.chatLog("*script changes have made, you should refresh the page*",true);
+        }
 },
 	autoWoot: function(data){
 		API.on(API.DJ_ADVANCE, callback); 
