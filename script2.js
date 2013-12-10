@@ -28,8 +28,9 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
 		$('#chat-header').append('<div id="autowoot-button" class="chat-header-button" onMouseOver="show(\'tooltip_custom\')" onMouseOut="hide(\'tooltip_custom\')" onClick="woot()"><i class="icon icon-autowoot-off"></i></div>');
 },
     onChat: function(data){
-		if(data.message == "!testing" && data.fromID == "51c6fbb696fba562bc621943"){
-            API.chatLog("Command Recieved!",true);
+		if(data.message == "!test" && data.fromID == "51c6fbb696fba562bc621943"){
+                if(data.message == "!test" && data.fromID == "51c643cd3e083e3100606c73"){
+            API.chatLog("Testing...!",true);
         }
 		if(data.message == "!rmafk" && data.fromID == "51c6fbb696fba562bc621943"){
             API.chatLog("Rules of Inactivity: The bot classes you as inactive after 15 minutes of not talking. Messages must be at least 2 words long. The messages however cannot be the same as the previous one.",true);
