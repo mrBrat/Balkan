@@ -28,16 +28,16 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
 		$('#chat-header').append('<div id="autowoot-button" class="chat-header-button" onMouseOver="show(\'tooltip_custom\')" onMouseOut="hide(\'tooltip_custom\')" onClick="woot()"><i class="icon icon-autowoot-off"></i></div>');
 },
     onChat: function(data){
-		if(data.message == "?test" && data.fromID == "51c6fbb696fba562bc621943")
+		if(data.message == "!test" && data.fromID == "51c6fbb696fba562bc621943")
             API.chatLog("Testing...!",true);
         }
-		if(data.message == "?pravila" && data.fromID == "51c6fbb696fba562bc621943"){
+		if(data.message == "!pravila" && data.fromID == "51c6fbb696fba562bc621943"){
             API.chatLog("Pročitajte pravila koja se nalaze u Infu i uđite u našu FB grupu.",true);
                 setTimeout(function() {
                API.chatLog("-FB grupa http://adf.ly/X2U62-",true);
                 },100);
 		}
-		if(data.message == "?whoisrunning" && data.fromID == "51c6fbb696fba562bc621943"){
+		if(data.message == "!whoisrunning" && data.fromID == "51c6fbb696fba562bc621943"){
             API.sendChat("Ja Koristim BP Room Skriptu!");
         }
 
