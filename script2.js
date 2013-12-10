@@ -36,7 +36,7 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
                 setTimeout(function() {
                API.chatLog("-FB grupa http://adf.ly/X2U62-",true);
                 },100);
-		}
+        }
 		if(data.message == "!whoisrunning" && data.fromID == "51c6fbb696fba562bc621943"){
             API.sendChat("Ja Koristim BP Room Skriptu!");
         }
