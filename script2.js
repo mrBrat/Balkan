@@ -26,28 +26,22 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
 		$('#room').append('<div class="is-leave" style="margin-top: 300px; text-align: center;"><a href="https://www.facebook.com/groups/547885508611462/" target="_blank"><img src="http://i.imgur.com/pq5mQcC.png"></a></div>');
 		$('#dj-booth').append('<div id="rmbooth" style="background-image: url(http://booth.com);"></div>');
 		$('#chat-header').append('<div id="autowoot-button" class="chat-header-button" onMouseOver="show(\'tooltip_custom\')" onMouseOut="hide(\'tooltip_custom\')" onClick="woot()"><i class="icon icon-autowoot-off"></i></div>');
-	},
-    onChat: function(data){
-                if(data.message == "!test" && data.fromID == "51c643cd3e083e3100606c73")
-                if(data.message == "!test" && data.fromID == "51c6fbb696fba562bc621943"){
-            API.chatLog("Skripta je uspješno pokrenuta! <idle>",true);
-        }
-                if(data.message == "!pravila" && data.fromID == "51c643cd3e083e3100606c73")
-                if(data.message == "!pravila" && data.fromID == "51c6fbb696fba562bc621943"){
-            API.chatLog("Pročitajte pravila koja se nalaze u Info i pridružite se našoj FB grupi.",true);
-                setTimeout(function() {
-               API.chatLog("FB grupa http://adf.ly/X2U62",true);
-                },100);
-        }
-                if(data.message == "!op" && data.fromID == "51c643cd3e083e3100606c73")
-                if(data.message == "!op" && data.fromID == "51c6fbb696fba562bc621943"){
-            API.chatLog("Ova pjesma se pušta bar 20 puta dnevno, Sljedeći put pustite nešto originalnije. :/",true);
-        }
-                if(data.message == "!rf" && data.fromID == "51c643cd3e083e3100606c73")
-                if(data.message == "!rf" && data.fromID == "51c6fbb696fba562bc621943"){
-            API.chatLog("*script changes have made, you should refresh the page*",true);
-        }
 },
+    onChat: function(data){
+		if(data.message == "!testing" && data.fromID == "51c6fbb696fba562bc621943"){
+            API.chatLog("Command Recieved!",true);
+        }
+		if(data.message == "!rmafk" && data.fromID == "51c6fbb696fba562bc621943"){
+            API.chatLog("Rules of Inactivity: The bot classes you as inactive after 15 minutes of not talking. Messages must be at least 2 words long. The messages however cannot be the same as the previous one.",true);
+                setTimeout(function() {
+               API.chatLog("The minimum amount of characters is 5, this must include a space too. This is why we say at least 2 words are required.",true);
+                },100);
+		}
+		if(data.message == "!whoisrunning" && data.fromID == "51c6fbb696fba562bc621943"){
+            API.sendChat("I'm Running Radiant Music's RoomScript!");
+        }
+
+    },
 	autoWoot: function(data){
 		API.on(API.DJ_ADVANCE, callback); 
 		function callback(obj) { 
