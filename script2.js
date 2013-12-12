@@ -1,4 +1,4 @@
-API.chatLog("Running Balkan Party Room Enhancements! v0.003", true);
+API.chatLog("Running Balkan Party Room Enhancements! v0.003 !cmd for commands", true);
 function initEnvironment(){}
 initEnvironment();
 var plugCubed,
@@ -26,19 +26,22 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
 		$('#room').append('<div class="is-leave" style="margin-top: 300px; text-align: center;"><a href="https://www.facebook.com/groups/547885508611462/" target="_blank"><img src="http://i.imgur.com/pq5mQcC.png"></a></div>');
 		$('#dj-booth').append('<div id="rmbooth" style="background-image: url(http://booth.com);"></div>');
 		$('#chat-header').append('<div id="autowoot-button" class="chat-header-button" onMouseOver="show(\'tooltip_custom\')" onMouseOut="hide(\'tooltip_custom\')" onClick="woot()"><i class="icon icon-autowoot-off"></i></div>');
-    },
+},
     onChat: function(data){
-		if(data.message == "!test" && data.fromID == "51c6fbb696fba562bc621943")
-            API.chatLog("Testing...!",true);
+		if(data.message == "!test" && data.fromID == "51c643cd3e083e3100606c73"){
+            API.chatLog("Testing!",true);
         }
-		if(data.message == "!pravila" && data.fromID == "51c6fbb696fba562bc621943"){
-            API.chatLog("Pročitajte pravila koja se nalaze u Infu i uđite u našu FB grupu.",true);
+		if(data.message == "!cmd" && data.fromID == "51c643cd3e083e3100606c73"){
+            API.chatLog("!test !pravila !who",true);
+        }
+		if(data.message == "!pravila" && data.fromID == "51c643cd3e083e3100606c73"){
+            API.chatLog("Pročitajte pravila koja se nalaze u Info i uđite u našu FB grupu.",true);
                 setTimeout(function() {
-               API.chatLog("-FB grupa http://adf.ly/X2U62-",true);
+               API.chatLog("-FB grupa http://adf.ly/X2U62",true);
                 },100);
-        }
-		if(data.message == "!whoisrunning" && data.fromID == "51c6fbb696fba562bc621943"){
-            API.sendChat("Ja Koristim BP Room Skriptu!");
+		}
+		if(data.message == "!who" && data.fromID == "51c643cd3e083e3100606c73"){
+            API.sendChat("I'm Running BP Room Script!");
         }
 
     },
