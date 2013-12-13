@@ -24,7 +24,7 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
 		$('body').append('<div id="tooltip_custom" class="right" style="top: 28px; right: 120px; visibility: hidden;"><span>AutoWoot Enable/Disable</span><div class="corner"></div></div>');
 		$('#room').find('canvas').filter(function() { return $(this).css('opacity') < 1; }).remove();
 		$('#room').append('<div class="is-leave" style="margin-top: 300px; text-align: center;"><a href="https://www.facebook.com/groups/547885508611462/" target="_blank"><img src="http://i.imgur.com/pq5mQcC.png"></a></div>');
-		$('#dj-booth').append('<div id="rmbooth" style="background-image: url(http://i.imgur.com/e2LkHyp.png);"></div>');
+		$('#dj-booth').append('<div id="rmbooth" style="background-image: url(http://i.imgur.com/Yjq3Eix.png);"></div>');
 		$('#chat-header').append('<div id="autowoot-button" class="chat-header-button" onMouseOver="show(\'tooltip_custom\')" onMouseOut="hide(\'tooltip_custom\')" onClick="woot()"><i class="icon icon-autowoot-off"></i></div>');
 },
     onChat: function(data){
