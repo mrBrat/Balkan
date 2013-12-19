@@ -1,5 +1,5 @@
 API.chatLog("Running Balkan Party Room Enhancements!", true);
-API.chatLog("-v0.012 !cmd for host commands-", true);
+API.chatLog("(v0.012) !cmd For Host Commands", true);
 function initEnvironment(){}
 initEnvironment();
 var plugCubed,
