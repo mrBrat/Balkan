@@ -1,9 +1,12 @@
-API.chatLog("Running Balkan Party Room Enhancements!", true);
-API.chatLog("(v0.012) !cmd For Host Commands", true);
-function initEnvironment(){}
+API.chatLog("Running Balkan Party RoomScript!", true);
+function initEnvironment(){
+	if (plugCubed === undefined) {
+		$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
+	};
+}
 initEnvironment();
 var plugCubed,
-RMEnhancedModel = require('ac785/bc190/b96e1').extend({
+RMEnhancedModel = require('c4161/e80a1/cf1e8').extend({
     init: function(){
         var Lang = require('lang/Lang');
         setTimeout($.proxy(this.initCSS,this), 1500);
@@ -21,38 +24,23 @@ RMEnhancedModel = require('ac785/bc190/b96e1').extend({
     },
     initCSS: function() {
 		$(".background").find('img').attr('src','http://i.imgur.com/gYDeX8Z.png');
-        $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/s/xrc8z5doey7y4zc/style.css">');
+        $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/82153790/rmplug.css">');
 		$('body').append('<div id="tooltip_custom" class="right" style="top: 28px; right: 120px; visibility: hidden;"><span>AutoWoot Enable/Disable</span><div class="corner"></div></div>');
+		$('body').append('<div id="tooltip_custom1" class="right" style="top: 28px; right: 70px; visibility: hidden;"><span>AutoJoin Enable/Disable</span><div class="corner"></div></div>');
 		$('#room').find('canvas').filter(function() { return $(this).css('opacity') < 1; }).remove();
 		$('#room').append('<div class="is-leave" style="margin-top: 300px; text-align: center;"><a href="https://www.facebook.com/groups/547885508611462/" target="_blank"><img src="http://i.imgur.com/pq5mQcC.png"></a></div>');
 		$('#dj-booth').append('<div id="rmbooth" style="background-image: url(http://i.imgur.com/tg0qpxC.png);"></div>');
 		$('#chat-header').append('<div id="autowoot-button" class="chat-header-button" onMouseOver="show(\'tooltip_custom\')" onMouseOut="hide(\'tooltip_custom\')" onClick="woot()"><i class="icon icon-autowoot-off"></i></div>');
-},
+	},
     onChat: function(data){
-		if(data.message == "!test" && data.fromID == "51c643cd3e083e3100606c73"){
-            API.chatLog("Testing!",true);
-        }
-		if(data.message == "!cmd" && data.fromID == "51c643cd3e083e3100606c73"){
-            API.chatLog("!test !pravila !who",true);
-        }
-		if(data.message == "!pravila" && data.fromID == "51c643cd3e083e3100606c73"){
-            API.chatLog("Pročitajte pravila koja se nalaze u Info i uđite u našu FB grupu.",true);
-                setTimeout(function() {
-               API.chatLog("-FB grupa http://adf.ly/X2U62",true);
-                },100);
-		}
-		if(data.message == "!who" && data.fromID == "51c643cd3e083e3100606c73"){
-            API.sendChat("I'm Running BP Room Script!");
-        }
-
     },
 	autoWoot: function(data){
 		API.on(API.DJ_ADVANCE, callback); 
 		function callback(obj) { 
-          if (RMEnhanced.settings.autowoot) {
-            document.getElementById('woot').click(); 
-          }
-	  }
+            if (RMEnhanced.settings.autowoot) {
+                document.getElementById('woot').click(); 
+            }
+		}
 	},
 });
 function woot() {
