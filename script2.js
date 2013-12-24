@@ -24,7 +24,7 @@ RMEnhancedModel = require('c4161/e80a1/cf1e8').extend({
     },
     initCSS: function() {
 		$(".background").find('img').attr('src','http://i.imgur.com/gYDeX8Z.png');
-        $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/82153790/rmplug.css">');
+        $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/s/xrc8z5doey7y4zc/style.css">');
 		$('body').append('<div id="tooltip_custom" class="right" style="top: 28px; right: 120px; visibility: hidden;"><span>AutoWoot Enable/Disable</span><div class="corner"></div></div>');
 		$('body').append('<div id="tooltip_custom1" class="right" style="top: 28px; right: 70px; visibility: hidden;"><span>AutoJoin Enable/Disable</span><div class="corner"></div></div>');
 		$('#room').find('canvas').filter(function() { return $(this).css('opacity') < 1; }).remove();
