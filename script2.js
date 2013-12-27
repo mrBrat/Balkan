@@ -1,7 +1,7 @@
 API.chatLog("Running Balkan Party RoomScript!", true);
 function initEnvironment(){
 	if (plugCubed === undefined) {
-		$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
+		$.getScript('http://files.plugCubed.net/plugCubed.js'); 
 	};
 }
 initEnvironment();
