@@ -6,7 +6,7 @@ function initEnvironment(){
 }
 initEnvironment();
 var plugCubed,
-RMEnhancedModel = require('c4161/e80a1/cf1e8').extend({
+RMEnhancedModel = require('a96fc/ff0b8/e72a9').extend({
     init: function(){
         var Lang = require('lang/Lang');
         setTimeout($.proxy(this.initCSS,this), 1500);
