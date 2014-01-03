@@ -1,9 +1,9 @@
-//API.chatLog("Running Balkan Party RoomScript!", true);
-//API.chatLog("version 0.013 (281213)", true);
-//API.chatLog("*** HAPPY NEW YEAR 2014 *** ", true);
+API.chatLog("Running Balkan Party RoomScript!", true);
+API.chatLog("version 0.015 (030114)", true);
+API.chatLog("* :santa: HAPPY NEW YEAR 2014 :santa: *", true);
 function initEnvironment(){
 	if (plugCubed === undefined) {
-		$.getScript('http://files.plugCubed.net/plugCubed.js'); 
+		$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
 	};
 }
 initEnvironment();
