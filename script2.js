@@ -1,6 +1,5 @@
 API.chatLog("Running Balkan Party RoomScript!", true);
-API.chatLog("version 0.016 (040114)", true);
-API.chatLog(":santa: HAPPY NEW YEAR 2014 :santa:", true);
+API.chatLog("version 0.016 (070114) Work in Progress", true);
 function initEnvironment(){
         if (plugCubed === undefined) {
         $.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
