@@ -2,7 +2,7 @@ API.chatLog("Running Balkan Party RoomScript!", true);
 API.chatLog("version 0.016 (070114) Work in Progress", true);
 function initEnvironment(){
         if (plugCubed === undefined) {
-        $.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
+        $.getScript('https://d1rfegul30378.cloudfront.net/files/plugCubed.js'); 
         };
 }
 initEnvironment();
