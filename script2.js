@@ -20,7 +20,7 @@ RMEnhancedModel = require('cc201/e4f39/bea26').extend({
         };
     },
     initCSS: function() {
-                $(".background").find('img').attr('src','http://i.imgur.com/qbovOzC.png');
+                $(".background").find('img').attr('src','http://i.imgur.com/264isaR.png');
         $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/s/xrc8z5doey7y4zc/style.css">');
                 $('body').append('<div id="tooltip_custom" class="right" style="top: 28px; right: 120px; visibility: hidden;"><span>AutoWoot Enable/Disable</span><div class="corner"></div></div>');
                 $('body').append('<div id="tooltip_custom1" class="right" style="top: 28px; right: 70px; visibility: hidden;"><span>AutoJoin Enable/Disable</span><div class="corner"></div></div>');
