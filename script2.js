@@ -1,13 +1,14 @@
 API.chatLog("Running Balkan Party RoomScript!", true);
 API.chatLog("version 0.016 (070114) Work in Progress", true);
 function initEnvironment(){
-        if (plugCubed === undefined) {
-        $.getScript('https://d1rfegul30378.cloudfront.net/files/plugCubed.js'); 
+       if (plugCubed === undefined) {
+        //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
+        $.getScript('https://d1rfegul30378.cloudfront.net/alpha/plugCubed.js');
         };
 }
 initEnvironment();
 var plugCubed,
-RMEnhancedModel = require('ee410/c8157/dec16').extend({
+RMEnhancedModel = require('cc201/e4f39/bea26').extend({
     init: function(){
         setTimeout($.proxy(this.initCSS,this), 1500);
         this.proxy = {
