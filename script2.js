@@ -3,12 +3,13 @@ API.chatLog("running version 0.017 (150114) :ballot_box_with_check:", true);
 function initEnvironment(){
        if (plugCubed === undefined) {
         //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
-        $.getScript('https://d1rfegul30378.cloudfront.net/alpha/plugCubed.js');
+        //$.getScript('https://d1rfegul30378.cloudfront.net/alpha/plugCubed.js');
+        $.getScript('https://d1rfegul30378.cloudfront.net/files/plugCubed.js');
         };
 }
 initEnvironment();
 var plugCubed,
-RMEnhancedModel = require('cc201/e4f39/bea26').extend({
+RMEnhancedModel = require('a79f1/d0bf6/c7e2b').extend({
     init: function(){
         setTimeout($.proxy(this.initCSS,this), 1500);
         this.proxy = {
