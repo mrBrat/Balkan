@@ -1,5 +1,5 @@
 API.chatLog("Balkan Party RoomScript! :ballot_box_with_check:", true);
-API.chatLog("running version 0.019 (260114) :ballot_box_with_check:", true);
+API.chatLog("running version 0.020 (010214) :ballot_box_with_check:", true);
 function initEnvironment(){
        if (plugCubed === undefined) {
         //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
