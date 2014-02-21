@@ -21,7 +21,7 @@ RMEnhancedModel = require('c447a/b3359/e3636').extend({
         };
     },
     initCSS: function() {
-                $("body").prepend('<img src="http://i.imgur.com/G6oFJB3.gif" id="BALKAN">');
+                $("body").prepend('<img src="http://i.imgur.com/bU8igZK.gif" id="BALKAN">');
                 $("body").prepend('<style> #balkan { position:absolute; top: 50px; left: 30px; } </style>');
                 $(".background").find('img').attr('src','http://i.imgur.com/yuPIW5I.png');
         $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/s/xrc8z5doey7y4zc/style.css">');
