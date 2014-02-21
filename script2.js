@@ -21,8 +21,8 @@ RMEnhancedModel = require('c447a/b3359/e3636').extend({
         };
     },
     initCSS: function() {
-                $("body").prepend('<img src="http://fpraz.org/teenradio/code/support_imgs/pulse_speaker.gif" id="speakerBLA">');
-                $("body").prepend('<style> #blaa { position:absolute; top: 50px; left: 30px; } </style>');
+                //$("body").prepend('<img src="http://fpraz.org/teenradio/code/support_imgs/pulse_speaker.gif" id="speakerBLA">');
+                //$("body").prepend('<style> #blaa { position:absolute; top: 50px; left: 30px; } </style>');
                 $(".background").find('img').attr('src','http://i.imgur.com/yuPIW5I.png');
         $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/s/xrc8z5doey7y4zc/style.css">');
                 $('body').append('<div id="tooltip_custom" class="right" style="top: 28px; right: 120px; visibility: hidden;"><span>AutoWoot Enable/Disable</span><div class="corner"></div></div>');
