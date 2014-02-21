@@ -1,5 +1,5 @@
 API.chatLog("Balkan Party RoomScript!", true);
-API.chatLog("running version 0.020 (010214) :ballot_box_with_check:", true);
+API.chatLog("running version 0.020 (210214) :ballot_box_with_check:", true);
 function initEnvironment(){
        if (plugCubed === undefined) {
         //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
@@ -9,7 +9,7 @@ function initEnvironment(){
 }
 initEnvironment();
 var plugCubed,
-RMEnhancedModel = require('aa5c1/af165/a9221').extend({
+RMEnhancedModel = require('c447a/b3359/e3636').extend({
     init: function(){
         setTimeout($.proxy(this.initCSS,this), 1500);
         this.proxy = {
