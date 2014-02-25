@@ -1,6 +1,5 @@
 API.chatLog("Balkan Party RoomScript-running version 0.020 (210214) :ballot_box_with_check:", true);
-API.chatLog("http://adf.ly/aV2hG Room Script, http://adf.ly/X2U62 FB Grupa, http://goo.gl/Hxdy5i OP Lista, http://adf.ly/a6btD Plug³");
-API.chatLog("(1)MAXIMALNA DUŽINA TRAJANJA PESME 6 MINUTA(AKO ŽELITE PUSTITI DUŽU PITAJTE ADMINA, (2)PESMA KOJA JE U ISTORIJI SKIPUJE SE (3)PESMA KOJA JE U OVERPLAYED LISTI SKIPUJE SE (4)7 MEHA=SKIP (5)REKLAMIRANJE DRUGIH SOBA/STRANICA JE STROGO ZABRANJENO (6)ZABRANJENO VRIJEĐANJE", false);
+API.chatLog("http://adf.ly/aV2hG Room Script, http://adf.ly/X2U62 FB Grupa, http://goo.gl/Hxdy5i OP Lista, http://adf.ly/a6btD Plug³", false);
 function initEnvironment(){
        if (plugCubed === undefined) {
         //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
