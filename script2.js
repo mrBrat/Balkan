@@ -1,5 +1,5 @@
 API.chatLog("Balkan Party RoomScript-running version 0.020 (210214) :ballot_box_with_check:", true);
-API.chatLog("http://adf.ly/aV2hG Room Script, http://adf.ly/X2U62 FB Grupa, http://goo.gl/Hxdy5i OP Lista, http://adf.ly/a6btD Plug³", false);
+API.chatLog("http://adf.ly/aV2hG Room Script, http://adf.ly/X2U62 FB Grupa, http://adf.ly/e3Kol OP Lista, http://adf.ly/a6btD Plug³", false);
 function initEnvironment(){
        if (plugCubed === undefined) {
         //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
