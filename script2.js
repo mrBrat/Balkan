@@ -1,4 +1,4 @@
-API.chatLog("Balkan Party RoomScript-running version 0.020 (210214) :ballot_box_with_check:", true);
+aAPI.chatLog("Balkan Party RoomScript-running version 0.020 (210214) :ballot_box_with_check:", true);
 API.chatLog("http://adf.ly/aV2hG Room Script, http://adf.ly/X2U62 FB Grupa, http://adf.ly/e3Kol OP Lista, http://adf.ly/a6btD Plug³", false);
 function initEnvironment(){
        if (plugCubed === undefined) {
