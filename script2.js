@@ -9,7 +9,7 @@ function initEnvironment(){
 }
 initEnvironment();
 var plugCubed,
-RMEnhancedModel = require('e4e88/a44ac/aeead').extend({
+RMEnhancedModel = require('b6946/cc764/c32ac').extend({
     init: function(){
         setTimeout($.proxy(this.initCSS,this), 1500);
         this.proxy = {
