@@ -23,7 +23,7 @@ RMEnhancedModel = require('b6946/cc764/c32ac').extend({
     initCSS: function() {
                 //$("body").prepend('<img src="http://i.imgur.com/u94c2tZ.gif" id="BALKAN">');
                 //$("body").prepend('<style> #balkan { position:absolute; top: 40px; left: 30px; } </style>');
-                $(".background").find('img').attr('src','http://i.imgur.com/IB5S2G4.jpg');
+                $(".background").find('img').attr('src','http://i.imgur.com/y3tlB7e.png');
         $('head').append('<link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/s/xrc8z5doey7y4zc/style.css">');
                 $('body').append('<div id="tooltip_custom" class="right" style="top: 28px; right: 120px; visibility: hidden;"><span>AutoWoot Enable/Disable</span><div class="corner"></div></div>');
                 $('body').append('<div id="tooltip_custom1" class="right" style="top: 28px; right: 70px; visibility: hidden;"><span>AutoJoin Enable/Disable</span><div class="corner"></div></div>');
