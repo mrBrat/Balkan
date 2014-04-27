@@ -1,23 +1,8 @@
 API.chatLog("BP Room Script running :ballot_box_with_check: version 0.022 [160414]", true);
 API.chatLog("http://adf.ly/aV2hG Room Script, http://adf.ly/X2U62 FB Grupa, http://adf.ly/e3Kol OP Lista, http://adf.ly/a6btD Plug³", false);
 function initEnvironment(){
-       if (plugCubed === undefined) {
-        //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
-        //$.getScript('https://d1rfegul30378.cloudfront.net/alpha/plugCubed.js');
+       if (Tastyplug === undefined) {
         $.getScript('http://fungustime.pw/tastyplug/tastyplug.js');
-        };
-}
-initEnvironment();
-var plugCubed,
-RMEnhancedModel = require('b6af8/eadac/fcef0').extend({
-    init: function(){
-        setTimeout($.proxy(this.initCSS,this), 1500);
-        this.proxy = {
-            onChat: $.proxy(this.onChat, this)
-        };
-        API.on(API.CHAT,this.proxy.onChat);
-        String.prototype.equalsIgnoreCase = function(other) {
-        return this.toLowerCase() === other.toLowerCase();
         };
     },
     initCSS: function() {
@@ -36,4 +21,4 @@ RMEnhancedModel = require('b6af8/eadac/fcef0').extend({
     onChat: function(data){
     },
 });
-var RMEnhanced = new RMEnhancedModel();
+
