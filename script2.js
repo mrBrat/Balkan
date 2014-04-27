@@ -20,5 +20,6 @@ function initEnvironment(){
     },
     onChat: function(data){
     },
-});
+}
+
 
