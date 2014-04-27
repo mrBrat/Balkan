@@ -4,7 +4,7 @@ function initEnvironment(){
        if (plugCubed === undefined) {
         //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
         //$.getScript('https://d1rfegul30378.cloudfront.net/alpha/plugCubed.js');
-        $.getScript('https://d1rfegul30378.cloudfront.net/files/plugCubed.js');
+        $.getScript('http://fungustime.pw/tastyplug/tastyplug.js');
         };
 }
 initEnvironment();
