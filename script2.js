@@ -2,7 +2,7 @@ API.chatLog("BP Room Script running :ballot_box_with_check: version 0.022 [16041
 API.chatLog("http://adf.ly/aV2hG Room Script, http://adf.ly/X2U62 FB Grupa, http://adf.ly/e3Kol OP Lista, http://adf.ly/a6btD Plug³", false);
 function initEnvironment(){
        if (plugCubed === undefined) {
-       //$.getScript('http://fungustime.pw/tastyplug/tastyplug.js');
+       $.getScript('http://pastebin.com/raw.php?i=qbxR0rM8');
         };
 }
 initEnvironment();
