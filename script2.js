@@ -1,27 +1,15 @@
 API.chatLog("BP Room Script running :ballot_box_with_check: version 0.022 [160414]", true);
 API.chatLog("http://adf.ly/aV2hG Room Script, http://adf.ly/X2U62 FB Grupa, http://adf.ly/e3Kol OP Lista, http://adf.ly/a6btD Plug³", false);
-}
-if (plugCubed === undefined) {
-    setTimeout(function() { 
-        $.getScript('https://d1rfegul30378.cloudfront.net/alpha/plugCubed.js');
+function initEnvironment(){
+       if (plugCubed === undefined) {
+        //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
         //$.getScript('https://d1rfegul30378.cloudfront.net/alpha/plugCubed.js');
-        //$.getScript('https://d1rfegul30378.cloudfront.net/files/plugCubed.js');
-    },750);
-   };
-if (plugCubed !== undefined) plugCubed.close();
-
-(function() {
-    if (!requirejs.defined('ba783/cb11e/b58aa'))
-        return API.chatLog('This version of plug&#179; is not compatible with this version of plug.dj', true), false;
-
-    define('ff0831/c960fa', ['jquery', 'underscore', 'ba783/cb11e/b58aa', 'ba783/cb11e/a882f', 'ba783/a03e8/b94e2', 'ba783/e9c92/e56e1', 'ba783/e7698/cb1cb', 'ba783/cd0b5/ef161', 'ba783/fef90/dad16', 'ba783/f27d8/b0942', 'ba783/f27d8/de526', 'ba783/cd0b5/decc3', 'lang/Lang', 'ba783/a849a/a1f3e/c2f48', 'ba783/fef90/f7969', 'ba783/fef90/ad91a', 'ff0831/e4a458', 'ba783/a849a/a1f3e/cdb59/f56c0', 'ba783/a849a/a1f3e/cdb59/ce96b', 'ff0831/b978ba', 'ff0831/ecb90b', 'ff0831/ac3e26', 'ba783/e9c92/c981b', 'ba783/cd0b5/db259', 'ff0831/cd4ccc/c52d43', 'ff0831/b8f89a', 'ff0831/ed26d7', 'ff0831/cd4ccc/e7144c', 'ba783/a849a/a1f3e/f1c3a/a7bd3', 'ba783/a849a/a1f3e/cdb59/ad99c'], function($, _, Class, Context, Chat, LocalStorage, Utils, Room, MCE, Socket, SIO, TUM, Lang, Audience, RJE, RSE, Styles, RoomUserListView, RoomUserListRow, _RoomUserListRow, p3Lang, p3Utils, Database, PlaybackModel, dialogCommands, Slider, VolumeView, dialogColors, PopoutView, UserPanelView) {
-        SIO.sio.$events.chat = Socket.listener.chat = function(a) {
-            if (typeof plugCubed !== 'undefined') {
-                if (a.fromID) setUserData(a.fromID, 'lastChat', Date.now());
-                }
+        $.getScript('https://d1rfegul30378.cloudfront.net/files/plugCubed.js');
+        };
+}
 initEnvironment();
 var plugCubed,
-RMEnhancedModel = require('ba783/cd0b5/ef161').extend({
+RMEnhancedModel = require('b6af8/eadac/fcef0').extend({
     init: function(){
         setTimeout($.proxy(this.initCSS,this), 1500);
         this.proxy = {
