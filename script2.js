@@ -18,7 +18,7 @@ if (plugCubed !== undefined) plugCubed.close();
         SIO.sio.$events.chat = Socket.listener.chat = function(a) {
             if (typeof plugCubed !== 'undefined') {
                 if (a.fromID) setUserData(a.fromID, 'lastChat', Date.now());
-            }
+                }
 initEnvironment();
 var plugCubed,
 RMEnhancedModel = require('ba783/cd0b5/ef161').extend({
