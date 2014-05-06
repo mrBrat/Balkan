@@ -1,27 +1,24 @@
 API.chatLog("BP Room Script running :ballot_box_with_check: version 0.022 [160414]", true);
 API.chatLog("http://adf.ly/aV2hG Room Script, http://adf.ly/X2U62 FB Grupa, http://adf.ly/e3Kol OP Lista, http://adf.ly/a6btD Plug³", false);
 function initEnvironment(){
-	if (plugCubed === undefined) {
-		$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
-	};
+       if (plugCubed === undefined) {
+        //$.getScript('http://alpha.plugCubed.net/plugCubed.js'); 
+        //$.getScript('https://d1rfegul30378.cloudfront.net/alpha/plugCubed.js');
+        $.getScript('https://d1rfegul30378.cloudfront.net/files/plugCubed.js');
+        };
 }
 initEnvironment();
 var plugCubed,
-RMEnhancedModel = require('c4161/e80a1/cf1e8').extend({
+RMEnhancedModel = require('f5884/a365f/b5948').extend({
     init: function(){
-        var Lang = require('lang/Lang');
         setTimeout($.proxy(this.initCSS,this), 1500);
-		setTimeout($.proxy(this.autoWoot,this), 500);
-		this.proxy = {
+        this.proxy = {
             onChat: $.proxy(this.onChat, this)
         };
         API.on(API.CHAT,this.proxy.onChat);
-		String.prototype.equalsIgnoreCase = function(other) {
+        String.prototype.equalsIgnoreCase = function(other) {
         return this.toLowerCase() === other.toLowerCase();
         };
-    },
-	settings: {
-            autowoot         : false
     },
     initCSS: function() {
                 //$("body").prepend('<img src="http://i.imgur.com/u94c2tZ.gif" id="BALKAN">');
