@@ -1,6 +1,6 @@
 API.chatLog("BP Room Script running :ballot_box_with_check: version 0.022 [160414]", true);
 API.chatLog("http://adf.ly/aV2hG Room Script, http://adf.ly/X2U62 FB Grupa, http://adf.ly/e3Kol OP Lista, http://adf.ly/a6btD Plug³", false);
-function initEnvironment(){
+}
 if (plugCubed === undefined) {
     setTimeout(function() { 
         $.getScript('https://d1rfegul30378.cloudfront.net/alpha/plugCubed.js');
