@@ -24,7 +24,7 @@ RMEnhancedModel = require('ba783/cb11e/b58aa').extend({
                 //$("body").prepend('<img src="http://i.imgur.com/u94c2tZ.gif" id="BALKAN">');
                 //$("body").prepend('<style> #balkan { position:absolute; top: 40px; left: 30px; } </style>');
                 $(".background").find('img').attr('src','http://i.imgur.com/3ez0hdD.png');
-        $('head').append('<link rel="stylesheet" type="text/css" href="http://radiantedm.com/plugdj/radiantscript.css">');
+        $('head').append('<link rel="stylesheet" type="text/css" href="http://pastebin.com/raw.php?i=wDmfGjGd">');
                 $('body').append('<div id="tooltip_custom" class="right" style="top: 28px; right: 120px; visibility: hidden;"><span>AutoWoot Enable/Disable</span><div class="corner"></div></div>');
                 $('body').append('<div id="tooltip_custom1" class="right" style="top: 28px; right: 70px; visibility: hidden;"><span>AutoJoin Enable/Disable</span><div class="corner"></div></div>');
                 $('#room').find('canvas').filter(function() { return $(this).css('opacity') < 1; }).remove();
